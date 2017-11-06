@@ -16,6 +16,8 @@
 		AFE2ACB51F99239600B92E46 /* Financer4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2ACB41F99239600B92E46 /* Financer4Tests.swift */; };
 		AFE2ACC01F99239600B92E46 /* Financer4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2ACBF1F99239600B92E46 /* Financer4UITests.swift */; };
 		AFE2ACCE1F99272600B92E46 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2ACCD1F99272600B92E46 /* SignInViewController.swift */; };
+		D7DBFAC51FB12377002A357F /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBFAC31FB12375002A357F /* Dados.swift */; };
+		D7DBFAC61FB12377002A357F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBFAC41FB12377002A357F /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		AFE2ACBF1F99239600B92E46 /* Financer4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Financer4UITests.swift; sourceTree = "<group>"; };
 		AFE2ACC11F99239600B92E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFE2ACCD1F99272600B92E46 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D7DBFAC31FB12375002A357F /* Dados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
+		D7DBFAC41FB12377002A357F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				AFE2AC9F1F99239500B92E46 /* AppDelegate.swift */,
 				AFE2ACA11F99239500B92E46 /* ViewController.swift */,
 				AFE2ACA31F99239500B92E46 /* Main.storyboard */,
+				D7DBFAC31FB12375002A357F /* Dados.swift */,
+				D7DBFAC41FB12377002A357F /* User.swift */,
 				AF4383EA1FB0F9AE00BF09F6 /* RegisterViewController.swift */,
 				AFE2ACCD1F99272600B92E46 /* SignInViewController.swift */,
 				AFE2ACA61F99239500B92E46 /* Assets.xcassets */,
@@ -267,8 +273,10 @@
 			files = (
 				AFE2ACA21F99239500B92E46 /* ViewController.swift in Sources */,
 				AFE2ACA01F99239500B92E46 /* AppDelegate.swift in Sources */,
+				D7DBFAC61FB12377002A357F /* User.swift in Sources */,
 				AFE2ACCE1F99272600B92E46 /* SignInViewController.swift in Sources */,
 				AF4383EB1FB0F9AE00BF09F6 /* RegisterViewController.swift in Sources */,
+				D7DBFAC51FB12377002A357F /* Dados.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
