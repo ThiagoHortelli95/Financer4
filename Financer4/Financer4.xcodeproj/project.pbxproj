@@ -18,6 +18,7 @@
 		AFE2ACCE1F99272600B92E46 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2ACCD1F99272600B92E46 /* SignInViewController.swift */; };
 		D7DBFAC51FB12377002A357F /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBFAC31FB12375002A357F /* Dados.swift */; };
 		D7DBFAC61FB12377002A357F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBFAC41FB12377002A357F /* User.swift */; };
+		D7DBFACC1FB3920E002A357F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBFACB1FB3920E002A357F /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		AFE2ACCD1F99272600B92E46 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		D7DBFAC31FB12375002A357F /* Dados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
 		D7DBFAC41FB12377002A357F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D7DBFACB1FB3920E002A357F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				AFE2ACA61F99239500B92E46 /* Assets.xcassets */,
 				AFE2ACA81F99239600B92E46 /* LaunchScreen.storyboard */,
 				AFE2ACAB1F99239600B92E46 /* Info.plist */,
+				D7DBFACB1FB3920E002A357F /* HomeViewController.swift */,
 			);
 			path = Financer4;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				D7DBFAC61FB12377002A357F /* User.swift in Sources */,
 				AFE2ACCE1F99272600B92E46 /* SignInViewController.swift in Sources */,
 				AF4383EB1FB0F9AE00BF09F6 /* RegisterViewController.swift in Sources */,
+				D7DBFACC1FB3920E002A357F /* HomeViewController.swift in Sources */,
 				D7DBFAC51FB12377002A357F /* Dados.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
