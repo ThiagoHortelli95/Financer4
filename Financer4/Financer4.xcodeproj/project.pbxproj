@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AF4383EB1FB0F9AE00BF09F6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4383EA1FB0F9AE00BF09F6 /* RegisterViewController.swift */; };
+		AF8B85591FB51B480031550F /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8B85581FB51B470031550F /* ForgotPasswordViewController.swift */; };
 		AFE2ACA01F99239500B92E46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2AC9F1F99239500B92E46 /* AppDelegate.swift */; };
 		AFE2ACA21F99239500B92E46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2ACA11F99239500B92E46 /* ViewController.swift */; };
 		AFE2ACA51F99239500B92E46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE2ACA31F99239500B92E46 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		AF4383EA1FB0F9AE00BF09F6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AF8B85581FB51B470031550F /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		AFE2AC9C1F99239500B92E46 /* Financer4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Financer4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE2AC9F1F99239500B92E46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFE2ACA11F99239500B92E46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				AFE2AC9F1F99239500B92E46 /* AppDelegate.swift */,
 				AFE2ACA11F99239500B92E46 /* ViewController.swift */,
 				AFE2ACA31F99239500B92E46 /* Main.storyboard */,
+				AF8B85581FB51B470031550F /* ForgotPasswordViewController.swift */,
 				D7DBFAC31FB12375002A357F /* Dados.swift */,
 				D7DBFAC41FB12377002A357F /* User.swift */,
 				AF4383EA1FB0F9AE00BF09F6 /* RegisterViewController.swift */,
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF8B85591FB51B480031550F /* ForgotPasswordViewController.swift in Sources */,
 				AFE2ACA21F99239500B92E46 /* ViewController.swift in Sources */,
 				AFE2ACA01F99239500B92E46 /* AppDelegate.swift in Sources */,
 				D7DBFAC61FB12377002A357F /* User.swift in Sources */,
