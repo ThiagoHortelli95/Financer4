@@ -1,5 +1,5 @@
 //
-//  HomeViewController.swift
+//  RelatorioViewController.swift
 //  Financer4
 //
 //  Created by Pedro Okidoi on 08/11/17.
@@ -8,8 +8,8 @@
 
 import UIKit
 
-class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
-
+class RelatorioViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
+   
     @IBOutlet weak var descricaoTableView: UITableView!
     
     let descricao = ["Supermercado", "Combustivel", "Roupas"]

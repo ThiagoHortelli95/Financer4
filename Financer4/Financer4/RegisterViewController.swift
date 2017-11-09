@@ -29,9 +29,6 @@ class RegisterViewController: UIViewController {
     }
     
 
-    @IBAction func cancelButtonTapped(_ sender: Any) {
-        print("Botao cancelar pressionado")
-    }
     
     @IBAction func confirmButtonTapped(_ sender: Any) {
         print("Botao confirmar pressionado")

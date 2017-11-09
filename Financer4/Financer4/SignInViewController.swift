@@ -29,9 +29,6 @@ class SignInViewController: UIViewController {
         print("Botao de entrar pressionado")
     }
     
-    @IBAction func registerNewAccountButtonTapped(_ sender: Any) {
-        print("Botao de registrar uma nova conta pressionado")
-    }
     
   
 }
