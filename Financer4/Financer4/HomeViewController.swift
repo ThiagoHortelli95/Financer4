@@ -12,10 +12,10 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var userNameTextField: UITextField!
     
-    
+    /*
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let MVC = segue.destination as? ManagerViewController else { return }
-        drinkVC.drinkValue = drinkTextField.text
+        MVC.userValue = userNameTextField.text
     }
-
+     */
 }
