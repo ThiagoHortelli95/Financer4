@@ -38,7 +38,7 @@
                                 <state key="normal" title="Entrar"/>
                                 <connections>
                                     <action selector="signInButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uea-1d-CIc"/>
-                                    <segue destination="FuK-nd-skc" kind="show" id="nXu-wn-SvU"/>
+                                    <segue destination="FuK-nd-skc" kind="show" id="8ak-IU-P8U"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -242,9 +242,10 @@
                         <viewLayoutGuide key="safeArea" id="buH-XL-fSs"/>
                     </view>
                     <connections>
+                        <outlet property="spendindNameTextField" destination="oPW-Qi-JpK" id="B9p-gU-E25"/>
                         <outlet property="spendingName" destination="oPW-Qi-JpK" id="yZv-BO-NiZ"/>
-                        <outlet property="spendingNameTextField" destination="oPW-Qi-JpK" id="euD-xe-9UW"/>
-                        <outlet property="spendingValueTextField" destination="MKA-kp-Qps" id="Rb5-m2-elt"/>
+                        <outlet property="spendingNameTextField" destination="oPW-Qi-JpK" id="58l-pJ-wPs"/>
+                        <outlet property="spendingValueTextField" destination="MKA-kp-Qps" id="Ney-3f-Ts8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qev-ie-XIX" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -253,6 +254,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="nXu-wn-SvU"/>
+        <segue reference="x6b-5W-p5p"/>
     </inferredMetricsTieBreakers>
 </document>
