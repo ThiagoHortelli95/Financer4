@@ -7,18 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF4383EB1FB0F9AE00BF09F6 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4383EA1FB0F9AE00BF09F6 /* RegisterViewController.swift */; };
-		AF8B85591FB51B480031550F /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8B85581FB51B470031550F /* ForgotPasswordViewController.swift */; };
+		AF8B8AD81FB75E3100B2B013 /* AddSpendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8B8AD71FB75E3100B2B013 /* AddSpendingViewController.swift */; };
 		AFE2ACA01F99239500B92E46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2AC9F1F99239500B92E46 /* AppDelegate.swift */; };
 		AFE2ACA21F99239500B92E46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2ACA11F99239500B92E46 /* ViewController.swift */; };
 		AFE2ACA51F99239500B92E46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFE2ACA31F99239500B92E46 /* Main.storyboard */; };
 		AFE2ACA71F99239500B92E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFE2ACA61F99239500B92E46 /* Assets.xcassets */; };
 		AFE2ACB51F99239600B92E46 /* Financer4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2ACB41F99239600B92E46 /* Financer4Tests.swift */; };
 		AFE2ACC01F99239600B92E46 /* Financer4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2ACBF1F99239600B92E46 /* Financer4UITests.swift */; };
-		AFE2ACCE1F99272600B92E46 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2ACCD1F99272600B92E46 /* SignInViewController.swift */; };
-		D7DBFAC51FB12377002A357F /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBFAC31FB12375002A357F /* Dados.swift */; };
-		D7DBFAC61FB12377002A357F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBFAC41FB12377002A357F /* User.swift */; };
-		D7DBFACC1FB3920E002A357F /* RelatorioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBFACB1FB3920E002A357F /* RelatorioViewController.swift */; };
+		D7DBFACC1FB3920E002A357F /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DBFACB1FB3920E002A357F /* ReportViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AF4383EA1FB0F9AE00BF09F6 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		AF8B85581FB51B470031550F /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		AF8B8AD71FB75E3100B2B013 /* AddSpendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSpendingViewController.swift; sourceTree = "<group>"; };
 		AFE2AC9C1F99239500B92E46 /* Financer4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Financer4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE2AC9F1F99239500B92E46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFE2ACA11F99239500B92E46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,10 +48,7 @@
 		AFE2ACBB1F99239600B92E46 /* Financer4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Financer4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE2ACBF1F99239600B92E46 /* Financer4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Financer4UITests.swift; sourceTree = "<group>"; };
 		AFE2ACC11F99239600B92E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFE2ACCD1F99272600B92E46 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
-		D7DBFAC31FB12375002A357F /* Dados.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
-		D7DBFAC41FB12377002A357F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		D7DBFACB1FB3920E002A357F /* RelatorioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatorioViewController.swift; sourceTree = "<group>"; };
+		D7DBFACB1FB3920E002A357F /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,14 +102,10 @@
 				AFE2AC9F1F99239500B92E46 /* AppDelegate.swift */,
 				AFE2ACA11F99239500B92E46 /* ViewController.swift */,
 				AFE2ACA31F99239500B92E46 /* Main.storyboard */,
-				AF8B85581FB51B470031550F /* ForgotPasswordViewController.swift */,
-				D7DBFAC31FB12375002A357F /* Dados.swift */,
-				D7DBFAC41FB12377002A357F /* User.swift */,
-				AF4383EA1FB0F9AE00BF09F6 /* RegisterViewController.swift */,
-				AFE2ACCD1F99272600B92E46 /* SignInViewController.swift */,
+				AF8B8AD71FB75E3100B2B013 /* AddSpendingViewController.swift */,
+				D7DBFACB1FB3920E002A357F /* ReportViewController.swift */,
 				AFE2ACA61F99239500B92E46 /* Assets.xcassets */,
 				AFE2ACAB1F99239600B92E46 /* Info.plist */,
-				D7DBFACB1FB3920E002A357F /* RelatorioViewController.swift */,
 			);
 			path = Financer4;
 			sourceTree = "<group>";
@@ -273,14 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF8B85591FB51B480031550F /* ForgotPasswordViewController.swift in Sources */,
 				AFE2ACA21F99239500B92E46 /* ViewController.swift in Sources */,
 				AFE2ACA01F99239500B92E46 /* AppDelegate.swift in Sources */,
-				D7DBFAC61FB12377002A357F /* User.swift in Sources */,
-				AFE2ACCE1F99272600B92E46 /* SignInViewController.swift in Sources */,
-				AF4383EB1FB0F9AE00BF09F6 /* RegisterViewController.swift in Sources */,
-				D7DBFACC1FB3920E002A357F /* RelatorioViewController.swift in Sources */,
-				D7DBFAC51FB12377002A357F /* Dados.swift in Sources */,
+				AF8B8AD81FB75E3100B2B013 /* AddSpendingViewController.swift in Sources */,
+				D7DBFACC1FB3920E002A357F /* ReportViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

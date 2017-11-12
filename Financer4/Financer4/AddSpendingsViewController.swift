@@ -1,18 +1,18 @@
 //
-//  SignInViewController.swift
+//  AddSpendingsViewController.swift
 //  Financer4
 //
-//  Created by Thiago on 19/10/2017.
+//  Created by Thiago on 11/11/17.
 //  Copyright © 2017 Thiago. All rights reserved.
 //
 
 import UIKit
 
-class SignInViewController: UIViewController {
+class AddSpendingsViewController: UIViewController {
 
-    @IBOutlet weak var userNameTextField: UITextField!
     
-    @IBOutlet weak var userPasswordTextField: UITextField!
+    @IBOutlet weak var spendingNameTextField: UITextField!
+    @IBOutlet weak var spendingValueTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,10 +25,7 @@ class SignInViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func signInButtonTapped(_ sender: Any) {
-        print("Botao de entrar pressionado")
-    }
+
+
     
-    
-  
 }

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RelatorioViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
+class ReportViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
    
     @IBOutlet weak var descricaoTableView: UITableView!
     
