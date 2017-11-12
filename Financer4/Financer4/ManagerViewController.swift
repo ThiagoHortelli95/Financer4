@@ -11,8 +11,9 @@ import UIKit
 class ManagerViewController: UIViewController {
     
     @IBOutlet weak var userNameDisplay: UILabel!
-    /*
+    
     var userValue : String!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,5 +21,5 @@ class ManagerViewController: UIViewController {
         userNameDisplay.text = userValue
     }
 
-     */
+     
 }

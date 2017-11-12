@@ -12,7 +12,7 @@
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="HomeViewController" id="BYZ-38-t0r" customClass="HomeViewController" customModule="Financer4" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="BYZ-38-t0r" customClass="HomeViewController" customModule="Financer4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -38,7 +38,7 @@
                                 <state key="normal" title="Entrar"/>
                                 <connections>
                                     <action selector="signInButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uea-1d-CIc"/>
-                                    <segue destination="FuK-nd-skc" kind="show" id="8ak-IU-P8U"/>
+                                    <segue destination="FuK-nd-skc" kind="show" id="1ud-Gu-btK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -51,12 +51,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="135" y="116"/>
+            <point key="canvasLocation" x="139" y="119"/>
         </scene>
         <!--Manager View Controller-->
         <scene sceneID="v1G-44-3f9">
             <objects>
-                <viewController storyboardIdentifier="ManagerViewController" id="FuK-nd-skc" customClass="ManagerViewController" customModule="Financer4" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ManagerViewController" id="FuK-nd-skc" customClass="ManagerViewController" customModule="Financer4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ndb-Rg-6yH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -108,7 +108,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="45b-1k-0JS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2074" y="140"/>
+            <point key="canvasLocation" x="2070" y="142"/>
         </scene>
         <!--Report View Controller-->
         <scene sceneID="k3o-J1-nbb">
@@ -184,12 +184,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MIh-9p-orI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2874" y="-671"/>
+            <point key="canvasLocation" x="2863" y="-662"/>
         </scene>
         <!--Add Spending View Controller-->
         <scene sceneID="2aD-bC-JOg">
             <objects>
-                <viewController storyboardIdentifier="AddSpendingViewController" id="Awm-Rp-hqY" customClass="AddSpendingViewController" customModule="Financer4" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddSpendingViewController" id="Awm-Rp-hqY" customClass="AddSpendingViewController" customModule="Financer4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c08-1D-cKW">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -250,10 +250,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qev-ie-XIX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="598" y="941"/>
+            <point key="canvasLocation" x="1262" y="941"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="x6b-5W-p5p"/>
+        <segue reference="SHV-dk-mKY"/>
     </inferredMetricsTieBreakers>
 </document>

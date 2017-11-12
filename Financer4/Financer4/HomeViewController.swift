@@ -12,10 +12,21 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var userNameTextField: UITextField!
     
-    /*
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let MVC = segue.destination as? ManagerViewController else { return }
-        MVC.userValue = userNameTextField.text
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // Do any additional setup after loading the view.
     }
-     */
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let mvc = segue.destination as? ManagerViewController else { return }
+        mvc.userValue = userNameTextField.text
+    }
+     
 }
