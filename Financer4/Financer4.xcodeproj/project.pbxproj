@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF309BCF1FB8A1BD006BFB2C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF309BCE1FB8A1BD006BFB2C /* HomeViewController.swift */; };
+		AF309BD11FB8A26B006BFB2C /* ManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF309BD01FB8A26B006BFB2C /* ManagerViewController.swift */; };
 		AF8B8AD81FB75E3100B2B013 /* AddSpendingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8B8AD71FB75E3100B2B013 /* AddSpendingViewController.swift */; };
 		AFE2ACA01F99239500B92E46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2AC9F1F99239500B92E46 /* AppDelegate.swift */; };
 		AFE2ACA21F99239500B92E46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE2ACA11F99239500B92E46 /* ViewController.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF309BCE1FB8A1BD006BFB2C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AF309BD01FB8A26B006BFB2C /* ManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerViewController.swift; sourceTree = "<group>"; };
 		AF8B8AD71FB75E3100B2B013 /* AddSpendingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSpendingViewController.swift; sourceTree = "<group>"; };
 		AFE2AC9C1F99239500B92E46 /* Financer4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Financer4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFE2AC9F1F99239500B92E46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,10 +106,12 @@
 				AFE2AC9F1F99239500B92E46 /* AppDelegate.swift */,
 				AFE2ACA11F99239500B92E46 /* ViewController.swift */,
 				AFE2ACA31F99239500B92E46 /* Main.storyboard */,
+				AF309BD01FB8A26B006BFB2C /* ManagerViewController.swift */,
 				AF8B8AD71FB75E3100B2B013 /* AddSpendingViewController.swift */,
 				D7DBFACB1FB3920E002A357F /* ReportViewController.swift */,
 				AFE2ACA61F99239500B92E46 /* Assets.xcassets */,
 				AFE2ACAB1F99239600B92E46 /* Info.plist */,
+				AF309BCE1FB8A1BD006BFB2C /* HomeViewController.swift */,
 			);
 			path = Financer4;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF309BD11FB8A26B006BFB2C /* ManagerViewController.swift in Sources */,
+				AF309BCF1FB8A1BD006BFB2C /* HomeViewController.swift in Sources */,
 				AFE2ACA21F99239500B92E46 /* ViewController.swift in Sources */,
 				AFE2ACA01F99239500B92E46 /* AppDelegate.swift in Sources */,
 				AF8B8AD81FB75E3100B2B013 /* AddSpendingViewController.swift in Sources */,
