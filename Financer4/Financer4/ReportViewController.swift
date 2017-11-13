@@ -1,5 +1,4 @@
 //
-//  RelatorioViewController.swift
 //  Financer4
 //
 //  Created by Pedro Okidoi on 08/11/17.
@@ -8,39 +7,38 @@
 
 import UIKit
 
-class ReportViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
+class ReportViewController: UIViewController,UITextFieldDelegate{
    
-    @IBOutlet weak var descricaoTableView: UITableView!
+    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var spendingTextField: UITextField!
     
-    let descricao = ["Supermercado", "Combustivel", "Roupas"]
-    let preco = ["120,30", "40,00", "200,00"]
+    @IBOutlet weak var addSpendingButton: UIButton!
+    var spendings:[String] = ["Veterinario","Shopping","Mercado"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        descricaoTableView.delegate = self
-        descricaoTableView.dataSource = self
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        tableView.tableFooterView = UIView(frame: CGRect.zero)
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return descricao.count
+    
+    @IBAction func addButtonTapped(_ sender: Any) {
+        insertTitle()
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = descricaoTableView.dequeueReusableCell(withIdentifier: "cell")
+    func insertTitle(){
+        spendings.append(spendingTextField.text!)
+    
+        let indexPath = IndexPath(row:spendings.count - 1, section: 0)
+    
+        tableView.beginUpdates()
+        tableView.insertRows(at: [indexPath], with: .automatic)
+        tableView.endUpdates()
         
-        cell?.textLabel?.text = descricao[indexPath.row]
-        cell?.detailTextLabel?.text = "\(preco[indexPath.row])"
-        
-        return cell!
+        spendingTextField.text = ""
+        view.endEditing(true)
     }
     
-
-
-
+    
 }
+
+

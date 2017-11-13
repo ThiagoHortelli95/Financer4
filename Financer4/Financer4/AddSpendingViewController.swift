@@ -14,4 +14,10 @@ class AddSpendingViewController: UIViewController {
     @IBOutlet weak var spendingNameTextField: UITextField!
     @IBOutlet weak var spendingValueTextField: UITextField!
     
+    /*
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let report = segue.destination as? ManagerViewController else { return }
+        report.userValue = userNameTextField.text
+    }
+     */
 }
