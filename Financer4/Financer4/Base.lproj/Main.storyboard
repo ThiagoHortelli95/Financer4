@@ -40,6 +40,10 @@
                                     <segue destination="FuK-nd-skc" kind="show" id="1ud-Gu-btK"/>
                                 </connections>
                             </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imagem" translatesAutoresizingMaskIntoConstraints="NO" id="xSy-lZ-ca3">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -50,7 +54,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="119"/>
+            <point key="canvasLocation" x="138.75" y="118.30985915492958"/>
         </scene>
         <!--Manager View Controller-->
         <scene sceneID="v1G-44-3f9">
@@ -89,6 +93,10 @@
                                     <segue destination="8Pf-B9-K2m" kind="show" id="ZHz-up-X2V"/>
                                 </connections>
                             </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.25" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imagem" translatesAutoresizingMaskIntoConstraints="NO" id="0S1-RR-cYN">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="h0j-ez-e7B"/>
@@ -99,7 +107,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="45b-1k-0JS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2068" y="118"/>
+            <point key="canvasLocation" x="2066.25" y="117.25352112676056"/>
         </scene>
         <!--Report View Controller-->
         <scene sceneID="yAh-Wq-2dg">
@@ -151,6 +159,10 @@
                                     <action selector="addButtonTapped:" destination="8Pf-B9-K2m" eventType="touchUpInside" id="w8N-mq-ZH7"/>
                                 </connections>
                             </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imagem" translatesAutoresizingMaskIntoConstraints="NO" id="oiR-Hi-Kdm">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="kFE-b8-KCF"/>
@@ -168,4 +180,7 @@
             <point key="canvasLocation" x="3136.875" y="118.30985915492958"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="imagem" width="275" height="183"/>
+    </resources>
 </document>
