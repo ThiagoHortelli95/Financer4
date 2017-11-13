@@ -10,15 +10,18 @@ import UIKit
 
 class ManagerViewController: UIViewController {
     
-    @IBOutlet weak var userNameDisplay: UILabel!
+    @IBOutlet weak var showUserName: UILabel!
     
-    var userValue : String!
+    var userValue:String!
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        showUserName.text = userValue
         
-        userNameDisplay.text = userValue
+
+        
     }
 
      

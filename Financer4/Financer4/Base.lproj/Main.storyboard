@@ -12,7 +12,7 @@
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="HomeViewController" id="BYZ-38-t0r" customClass="HomeViewController" customModule="Financer4" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="BYZ-38-t0r" customClass="HomeViewController" customModule="Financer4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,7 +37,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Entrar"/>
                                 <connections>
-                                    <action selector="signInButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uea-1d-CIc"/>
                                     <segue destination="FuK-nd-skc" kind="show" id="1ud-Gu-btK"/>
                                 </connections>
                             </button>
@@ -46,7 +45,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="userNameTextField" destination="fA7-SN-N1f" id="kBA-GS-vtV"/>
+                        <outlet property="userNameTextField" destination="fA7-SN-N1f" id="Lr2-nH-QhQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -56,18 +55,11 @@
         <!--Manager View Controller-->
         <scene sceneID="v1G-44-3f9">
             <objects>
-                <viewController storyboardIdentifier="ManagerViewController" id="FuK-nd-skc" customClass="ManagerViewController" customModule="Financer4" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ManagerViewController" id="FuK-nd-skc" customClass="ManagerViewController" customModule="Financer4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ndb-Rg-6yH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFz-pg-Z7S">
-                                <rect key="frame" x="183" y="27" width="0.0" height="0.0"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vAJ-sX-oiS">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -91,8 +83,15 @@
                                     <segue destination="RrH-GY-UiQ" kind="show" id="xeY-aY-1t1"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Usuário :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DaT-DH-sur">
+                                <rect key="frame" x="16" y="71" width="76" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Tb-7Y-LWN">
-                                <rect key="frame" x="14" y="44" width="292" height="34"/>
+                                <rect key="frame" x="100" y="64" width="132" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -103,12 +102,12 @@
                         <viewLayoutGuide key="safeArea" id="h0j-ez-e7B"/>
                     </view>
                     <connections>
-                        <outlet property="userNameDisplay" destination="4Tb-7Y-LWN" id="i5W-KG-1YD"/>
+                        <outlet property="showUserName" destination="4Tb-7Y-LWN" id="0FJ-0d-DRx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="45b-1k-0JS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2070" y="142"/>
+            <point key="canvasLocation" x="2070" y="141.5492957746479"/>
         </scene>
         <!--Report View Controller-->
         <scene sceneID="k3o-J1-nbb">
@@ -241,12 +240,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="buH-XL-fSs"/>
                     </view>
-                    <connections>
-                        <outlet property="spendindNameTextField" destination="oPW-Qi-JpK" id="B9p-gU-E25"/>
-                        <outlet property="spendingName" destination="oPW-Qi-JpK" id="yZv-BO-NiZ"/>
-                        <outlet property="spendingNameTextField" destination="oPW-Qi-JpK" id="58l-pJ-wPs"/>
-                        <outlet property="spendingValueTextField" destination="MKA-kp-Qps" id="Ney-3f-Ts8"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qev-ie-XIX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -254,6 +247,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="SHV-dk-mKY"/>
+        <segue reference="1ud-Gu-btK"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -106,12 +106,12 @@
 				AFE2AC9F1F99239500B92E46 /* AppDelegate.swift */,
 				AFE2ACA11F99239500B92E46 /* ViewController.swift */,
 				AFE2ACA31F99239500B92E46 /* Main.storyboard */,
-				AF309BD01FB8A26B006BFB2C /* ManagerViewController.swift */,
 				AF8B8AD71FB75E3100B2B013 /* AddSpendingViewController.swift */,
 				D7DBFACB1FB3920E002A357F /* ReportViewController.swift */,
+				AF309BD01FB8A26B006BFB2C /* ManagerViewController.swift */,
+				AF309BCE1FB8A1BD006BFB2C /* HomeViewController.swift */,
 				AFE2ACA61F99239500B92E46 /* Assets.xcassets */,
 				AFE2ACAB1F99239600B92E46 /* Info.plist */,
-				AF309BCE1FB8A1BD006BFB2C /* HomeViewController.swift */,
 			);
 			path = Financer4;
 			sourceTree = "<group>";
